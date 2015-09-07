@@ -1,0 +1,18 @@
+{
+  "locals": {
+    "name": "Rubber Duck as a Service",
+    "title": "Rubber Duck as a Service",
+    "branding": "Rubber Duck as a Service",
+    "shortbranding": "RDaaS",
+    "description": "Such Duck. Very Debug."
+  },
+  "basetemplate": "index.html",
+  "plugins": [
+    "wintersmith-less",
+    "wintersmith-nunjucks",
+    "wintersmith-livereload"
+  ],
+  "less": {
+    "fileGlob": "[^\\_]**/[^\\_]*.less"
+  }
+}
